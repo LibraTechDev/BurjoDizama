@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evans</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/Img/Favicon.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/pristel.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body style="background-color: greenyellow;">
+    <nav class="navbar navbar-expand-lg navbar-warning bg-danger shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="#"><span class="text-light">Burjo</span>Dizama</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs- active text-light " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs- active text-light " href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase fs-6 text-light " href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#makanan">Makanan</a></li>
+                              <li><a class="dropdown-item" href="#minuman">Minuman</a></li>
+                            </ul>
+                          </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs- active text-light " href="#order">Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs- active text-light " href="#team">Team</a>
+                        </li>
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase fs-6 text-light " href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Login
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="signin.html	">Sign In</a></li>
+                              <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+							  
+                            </ul>
+                          </li>
+                    </ul>
+					  
+                </div>
+            </div>
+        </div>
+	
+    </nav>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+				aria-label="Slide 4"></button>
+			
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="Assets/Img/Nasgor.jpeg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Nasi Goreng</h5>
+					<p>Makanan berupa nasi yang digoreng dan dicampur dalam minyak goreng, margarin atau mentega. 
+                    Biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bahan lainnya; seperti telur, daging ayam, dan kerupuk
+					</p>
+					<p><a href="#order" class="btn btn-warning mt-3">Order Here</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="Assets/Img/Magelangan.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Nasi Magelangan</h5>
+					<p>					
+                    Makanan khas dari Magelang, Jawa Tengah.Nasi magelangan ini tetap terbuat dari nasi putih, telur dan aneka rempah-rempah.
+                    </p>
+					<p><a href="#order" class="btn btn-warning mt-3">Order Here</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="Assets/Img/Bali2.jpeg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Nasi Ayam Bali</h5>
+					<p>Makanan perpaduan nasi, ayam cincang dengan sambel matah, rasa pedas, asin, gurih dan harum bawang.
+					</p>
+					<p><a href="#order" class="btn btn-warning mt-3">Order Here</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="Assets/Img/dogdog.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Mie Dok-Dok</h5>
+					<p>Mie yang direbus (digodok) bersama dengan telur (endok)
+					</p>
+					<p><a href="#order" class="btn btn-warning mt-3">Order Here</a></p>
+				</div>
+			</div>
+			
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	
+
+		<div id="about" class="about p-5">
+			<div class="container">
+			<div class="row">
+				<div class="col-12" >
+					<div class="text-uppercase fw-bold fs-4 text-center p-5" data-aos="fade-up">
+						<p>About</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<div class="about" data-aos="fade-right">
+						<img src="Assets/Img/Favicon.jpeg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+					<div class="about-text justify-content- " data-aos="fade-left">
+						<p>Warung Burjo adalah sebuah warung makan yang buka selama 24 jam setiap harinya. Sebagai tempat makan Warung Burjo memiliki kekhasan tersendiri, dari makanan yang tersedia, daerah asal pemilik warung, dan penamaan warung itu sendiri	 
+							
+						</p>
+						<p>Warung Burjo menyediakan makanan khasnya yaitu bubur kacang hijau. Selain itu, warung tersebut menyediakan berbagai makanan cepat saji seperti mie instan, nasi telur, nasi sarden, dan nasi ayam
+							
+						</p>
+						<p>Karena menu bubur kacang hijau yang diandalkan sebagai menu khas, maka warung tersebut seringkali disebut sebagai "Warung Burjo" atau "Burjo" sebagai kependekan dari bubur kacang hijau
+							
+						</p>
+                        <p>
+							Kebanyakan pemilik dan pekerja warung ini berasal dari daerah tanah Sunda, Jawa Barat, lebih tepatnya daerah Kuningan.
+                        </p>
+						<p>
+							Burjo merupakan warung yang disukai kebanyakan mahasiswa, warung yang khas dengan interior berwarna hijau, kuning dan merah.
+                        </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<div id="makanan" class="menu p-5" >
+		<div class="container">
+			
+			<div class="col-12">
+				<div class="text-uppercase text-center fw-bold fs-4 p-5" data-aos="fade-up">
+					<p>Makanan</p>
+				</div>
+			</div>
+			<center>
+				
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<div class="card mt-4 shadow" data-aos="zoom-in-up">
+						<img src="Assets/Img/Makanan.png" alt="menu" >
+						<div class="card-body">
+							<h5 class="menu-title">Menu Makanan</h5>
+							<div id="minuman"></div>
+							
+						</div>
+					</div>
+				</div>
+			</center>
+			<div class="col-12">
+				<div class="text-uppercase text-center fw-bold fs-4 p-5" data-aos="fade-up">
+					<p>Minuman</p>
+				</div>
+			</div>
+			
+<center>
+
+	<div class="col-sm-12 col-md-12 col-lg-6">
+		<div class="card mt-4 shadow" data-aos="zoom-in-down" style="width: 100%; height: 200%;">
+			<img src="assets/Img/Minuman.jpeg" alt="menu">
+			<div class="card-body">
+				<h5 class="menu-title" style="text-align: center;">Menu Minuman</h5>
+				
+			</div>
+		</div>
+	</div>
+</center>
+			
+				
+		
+	</div>
+</div>
+
+
+
+
+<div id="order" class="order p-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-uppercase fw-bold fs-4 text-center p-5" data-aos="fade-up">
+					<p>Order</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<a href="https://gofood.co.id/en" style="text-decoration: none; color: black;">
+					<div class="card mt-4 shadow" 
+					data-aos="fade-zoom-in"
+					data-aos-easing="ease-in-back"
+					data-aos-delay="0"
+					data-aos-offset="0">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="Assets/Img/Gofood-Logo.png" alt="...">
+							<h5 class="services-title ms-2">Go-Food</h5>
+						</div>		
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<a href="https://food.grab.com/id/id/" style="text-decoration: none; color: black;">
+					<div class="card mt-4 shadow"
+					data-aos="fade-zoom-in"
+					data-aos-easing="ease-in-back"
+					data-aos-delay="0"
+					data-aos-offset="0">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="Assets/Img/grebpud.jpg" alt="...">
+							<h5 class="services-title ms-2">Grab Food</h5>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<a href="https://shopee.co.id/m/shopeefood" style="text-decoration: none; color: black;">
+					<div class="card mt-4 shadow"
+					data-aos="fade-zoom-in"
+					data-aos-easing="ease-in-back"
+					data-aos-delay="0"
+					data-aos-offset="0">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="Assets/Img/Sopipud.png" alt="...">
+							<h5 class="services-title ms-2">Shopee Food</h5>
+						</div>
+					</div>
+				</a>
+			</div>
+			
+			<div class="col-md-6 col-lg-4 mt-4">
+				<a href="" style="text-decoration: none; color: black;">
+					<div class="card mt-4 shadow"
+					data-aos="fade-zoom-in"
+					data-aos-easing="ease-in-back"
+					data-aos-delay="0"
+					data-aos-offset="0">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="Assets/Img/maxim.jpg" alt="...">
+							<h5 class="services-title ms-2">Maxim Food & Shop</h5>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 col-lg-4 mt-4">
+				<a href="https://www.blibli.com/jual/food" style="text-decoration: none; color: black;">
+					<div class="card mt-4 shadow"
+					data-aos="fade-zoom-in"
+					data-aos-easing="ease-in-back"
+					data-aos-delay="0"
+					data-aos-offset="0">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="Assets/Img/blibli.jpg" alt="...">
+							<h5 class="services-title ms-2">BliBli Food</h5>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 col-lg-4 mt-4">
+				<a href="" style="text-decoration: none; color: black;">
+					<div class="card mt-4  shadow"
+					data-aos="fade-zoom-in"
+					data-aos-easing="ease-in-back"
+					data-aos-delay="0"
+					data-aos-offset="0">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="Assets/Img/Telpon.png" alt="...">
+							<h5 class="services-title ms-2">Pesan Antar</h5>
+						</div>
+					</div>
+				</a>
+                <br><br><br><br><br><br><br><br>
+			</div>
+		</div>
+		<div id="team" class=""></div>
+	</div>
+</div>
+        
+            <div  class="profile text-uppercase fw-bold fs-4 text-center p-5 mt-4" >
+                <p>Team</p>
+            </div>
+            <center>
+            <div class="container">
+            <div class="container1">
+				
+
+					
+					
+					<div class="card1">
+						<div class="flipcard" >
+							<div class="flip-front" data-aos="flip-left">
+								<img src="Assets/Img/vier.jpeg" alt="foto VIER" width="15%"/>
+							</div>
+							
+							<div class="flip-back">
+								<h2>PRIMAVIERI</h2>
+								<hr>
+								
+								<p>TEKNIK INFORMATIKA UDINUS 2022</p>
+								<p>A11.2022.14557</p>
+								<p>18 Tahun</p>
+								<p>Semarang</p>
+								
+							</div>
+            			</div>
+                	</div>
+				
+				
+				<div class="card1">
+					<div class="flipcard" >
+						<div class="flip-front" data-aos="flip-up">
+							<img src="Assets/Img/Izal.jpg" alt="foto Izal" style="margin-left: none;" width=""/>
+						</div>
+						
+						<div class="flip-back">
+							<h2>IZAALFARUQ</h2>
+							<hr>
+							
+							<p>TEKNIK INFORMATIKA UDINUS 2022</p>
+							<p>A11.2022.14556</p>
+							<p>18 Tahun</p>
+							<p>Semarang</p>
+							
+						</div>
+					</div>
+				</div>
+        
+				
+				
+				
+				
+				
+				
+				<div class="card1"> 
+					<div class="flipcard">
+						<div class="flip-front" data-aos="flip-right">
+							<img src="Assets/Img/Ardi.JPG" alt="foto fia" style="margin-left: none;" width="15%"/>
+                        </div>
+						
+						<div class="flip-back">
+							<h2>SETYA ARDI</h2>
+							<hr>
+							
+							<p>TEKNIK INFORMATIKA UDINUS 2022</p>
+							<p>A11.2022.14555</p>
+							<p>18 Tahun</p>
+							<p>Semarang</p>
+							
+						</div>
+                    </div>
+                </div>
+				
+				
+				
+				
+            </div>
+		</div>
+	
+            
+            </center>
+			<footer class="footer bg-dark p-3">
+				<div class="container-fluid">
+					<div class="row text-light">
+						<div class="col-6 text-lg-start text-sm-start">
+							Copyright © 2022 BurjoEvan. All Rights Reserved
+						</div>
+						<div class="col-6 text-lg-end text-sm-end">
+							Privacy Policy Terms & Condition
+						</div>
+					</div>
+				</div>
+			</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
